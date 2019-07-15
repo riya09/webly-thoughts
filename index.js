@@ -6,7 +6,7 @@ const express = require('express');
 const path = require('path');
 let app = express();
 const fs = require('fs');
-const port = process.env.port | 8080;
+const port = process.env.port || 8080;
 
 app.use(express.static(path.join(__dirname, 'public')))
 
