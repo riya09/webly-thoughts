@@ -90,6 +90,10 @@ p{
   display:block;
   margin-top:5px;
 }
+.size-full{
+  position: absolute;
+  right:0;
+}
 @media screen and (max-width:414px){
   .container{
     width:90%;
